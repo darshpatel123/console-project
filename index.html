@@ -1,0 +1,27 @@
+<html><head><title>Maths,name in console.log</title></head>
+<body>Write Your name <br><input id="name"  > <button class="button" onclick="one()" >Submit</button>
+<H1>Multiplication</H1>
+<Input id="M1"> <Input id="M2"> <button class="button" onclick="multiply()">Submit</button>
+
+<script>
+
+    function one() {
+        
+        var name = number=document.getElementById("name").value;
+        if (name.length = 5) {
+            console.log(name);  
+    }
+    
+    if (name.length <5) {
+        var name="";
+        window.alert("It should be atleast five characters")
+    }
+    }
+    function multiply() {
+    var m1 = number=document.getElementById("M1").value;
+    var m2 = number=document.getElementById("M2").value;
+    var answer = m1 * m2;
+    console.log(answer);
+    }
+</script></body>
+</html>
